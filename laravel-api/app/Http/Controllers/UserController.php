@@ -60,7 +60,7 @@ class UserController extends Controller
         // ✅ Successful JSON response
         return response()->json([
             'success' => true,
-            'message' => 'User created successfully',
+            'message' => 'User updated successfully',
             'data' => $user,
         ], 201);
 
